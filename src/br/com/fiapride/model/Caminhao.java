@@ -6,4 +6,7 @@ public class Caminhao extends Veiculo{
         super(placa, pesoSuportado);
         this.qtdEixos = qtdEixos;
     }
+    public int getQtdEixos() {
+        return qtdEixos;
+    }
 }

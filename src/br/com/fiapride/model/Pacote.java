@@ -1,4 +1,5 @@
 package br.com.fiapride.model;
+//Representa um pacote a ser entregue do FiapDelivery.
 
 public class Pacote {
     private String codigoEntrega;
@@ -15,6 +16,9 @@ public class Pacote {
     }
     public double getPesoProduto(){
         return pesoProduto;
+    }
+    public String getEstadoEntrega() {
+        return estadoEntrega;
     }
     public void mudarEstado(String novoEstado){
         estadoEntrega = novoEstado;

@@ -1,5 +1,6 @@
 package br.com.fiapride.model;
 
+//Representa um veículo de entrega do FiapDelivery.
 public class Veiculo{
     private String placa;
     private double pesoSuportado;
